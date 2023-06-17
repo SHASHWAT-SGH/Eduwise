@@ -29,7 +29,7 @@ function Chats() {
 
     const botMessage = async () => {
         const configuration = new Configuration({
-          apiKey: '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',
+          apiKey: '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',
         });
         const openai = new OpenAIApi(configuration);
 
@@ -90,7 +90,7 @@ function Chats() {
                         onChange={handleInputChange} />
 
                     <Button w='10%' h='3.5rem' background='linear-gradient(to right, #c0392b, #8e44ad)' _hover={{ background: "linear-gradient(to right, #642b73, #c6426e)" }} _active={{ background: "linear-gradient(to right, #cb356b, #bd3f32)" }} onClick={handleSend} variant='solid'>
-                        Button
+                        Send
                     </Button>
                 </Box>
             </Box>

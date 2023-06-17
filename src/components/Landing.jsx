@@ -62,7 +62,7 @@ function Landing() {
                                 Your personal tutor
                             </Heading>
                             <Heading as='h2' size='xl'>
-                                (xl) In love with React & Next
+                                 Made using React and GPT3
                             </Heading>
                             <Button _hover={{ bg: ' rgb(43,90,187)', color: 'white' }} h='3.5rem' fontSize='xl' m='auto' w='30%' color='white' bg='rgb(8,117,247)' borderRadius='20px' border='2px' onClick={()=>navigate('/auth/signup')}>Get Started</Button>
                         </Stack>

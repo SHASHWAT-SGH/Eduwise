@@ -10,7 +10,7 @@ function ChatHistory() {
     const cancelRef = React.useRef()
 
     const updateChatNames = () => {
-        setChatNames(['John Doe asdlfkjasldkfjlas;dkjflsdkjfls;dkjfl;kdsjf', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith',]);
+        setChatNames(['Sample Chat' , 'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'Sample Chat' ,'John Doe asdlfkjasldkfjlas;dkjflsdkjfls;dkjfl;kdsjf', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith', 'Jane Smith',]);
     };
 
 
