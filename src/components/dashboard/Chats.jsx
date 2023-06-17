@@ -4,6 +4,7 @@ import { Configuration, OpenAIApi } from 'openai';
 
 import React, { useEffect, useRef, useState } from 'react';
 
+require('dotenv').config()
 
 function Chats() {
     const [messages, setMessages] = useState([]);
@@ -29,7 +30,7 @@ function Chats() {
 
     const botMessage = async () => {
         const configuration = new Configuration({
-          apiKey: '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',
+          apiKey: process.env.KEY,
         });
         const openai = new OpenAIApi(configuration);
 
