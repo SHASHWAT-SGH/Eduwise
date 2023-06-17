@@ -29,7 +29,7 @@ function Chats() {
 
     const botMessage = async () => {
         const configuration = new Configuration({
-          apiKey: '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',
+          apiKey: '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',
         });
         const openai = new OpenAIApi(configuration);
 
