@@ -10,6 +10,7 @@ function User() {
     function handleLogout(){
         localStorage.removeItem('uid')
         navigate('/auth/signin')
+        window.location.reload();
         
     }
 
